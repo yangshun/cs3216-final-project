@@ -6,7 +6,7 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "jade": "*",
-    "una": "~0.3.0"
+    "jade": "0.35.0",
+    "una": "0.4.3"
   }
 }

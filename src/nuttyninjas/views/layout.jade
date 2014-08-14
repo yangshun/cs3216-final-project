@@ -1,11 +1,12 @@
-doctype 5
+doctype html
 html
   head
     title= title
     
     //- Font
     script(type="text/javascript", src="//use.typekit.net/rxt6ovh.js")
-    script(type="text/javascript") try{Typekit.load();}catch(e){}
+    script(type="text/javascript").
+        try{Typekit.load();}catch(e){}
 
     //- Stylesheets
     link(rel='stylesheet', href='/lib/jquery.mobile.custom.structure.css')
@@ -21,10 +22,10 @@ html
     
     //- Network
     script(type='text/javascript', src='/socket.io/socket.io.js')
-    script(type='text/javascript', src='/una_js/una.js');
+    script(type='text/javascript', src='/una_js/una.js')
     
     //- Game engine
-    script(type='text/javascript', src='/lib/createjs-0.7.0.min.js');
+    script(type='text/javascript', src='/lib/createjs-0.7.0.min.js')
 
     //- Meta Tags
     meta(name="viewport", content="initial-scale=1.0, width=device-width, user-scalable=no")
